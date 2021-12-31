@@ -15,3 +15,11 @@ I am new to developing, but I’m looking forward to become a part of it. I have
 * Strong communication skills
 * Good team player
 * Dependable time and task management
+
+## Education:
+* Belarusian National Technical University
+    * International Logistics 2014-2019
+* Streamline language courses:
+    * Englisch Level C1
+    * German Level A2 (in process)
+* RS School JS/FRONT-END. Stage 0 (in process)
