@@ -17,9 +17,9 @@ I am new to developing, but I’m looking forward to become a part of it. I have
 * Dependable time and task management
 
 ## Education:
-* Belarusian National Technical University
+* __Belarusian National Technical University__
     * International Logistics 2014-2019
-* Streamline language courses:
+* __Streamline language courses:__
     * English Level C1
     * German Level A2 (in process)
-* RS School JS/FRONT-END. Stage 0 (in process)
+* __RS School JS/FRONT-END. Stage 0__ (in process)
