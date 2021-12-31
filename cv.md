@@ -24,5 +24,10 @@ I am new to developing, but I’m looking forward to become a part of it. I have
     * German Level A2 (in process)
 * __RS School JS/FRONT-END. Stage 0__ (in process)
 
+## Languages:
+* __Russian__ - native speaker
+* __English__ - C1
+* __German__ - A2 (in process)
+
 ### English Skills:
 I have successfully passed Streamline English Course, Level C1. I never stop learning the language. English sounds like music to me. I prefer watching movies and series in English using no subtitles. 
