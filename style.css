@@ -32,24 +32,22 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 700;
-  color:
+  color: #000000;
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
   color: #7D42AF;
 }
 
-
-
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+nav {
+  display: block;
+  border-bottom: 3px dotted #2E4053;
 }
-
-.nav-link {
-  transition: .3s;
+.nav-item {
+  list-style-type: none;
+  font-size: 15px;
+  color: #48444C;
 }
-
