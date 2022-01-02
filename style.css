@@ -6,3 +6,6 @@ body {
   font-family: Spline Sans, sans-serif;
   font-weight: normal;
 }
+* {
+  box-sizing: border-box;
+}
