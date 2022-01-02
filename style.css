@@ -18,6 +18,17 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: #C196EE;
+}
+
+main {
+  background-color: #EAE4F0;
+}
+
+footer {
+  background-color: #C196EE;
+}
 p {
   font-size: 16px;
   font-weight: normal;
@@ -26,7 +37,7 @@ p {
 h1 {
   font-size: 34px;
   font-weight: 800;
-  color: #5A0E9A;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -39,7 +50,7 @@ h3 {
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #7D42AF;
+  color: #FFFFFF;
 }
 
 nav {
