@@ -45,3 +45,15 @@ html {
   line-height: 50px;
 }
 
+.nav-link {
+  transition: .3s;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
