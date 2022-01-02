@@ -1,5 +1,4 @@
-h1 {
-    font-size: 20px;
-    font-weight: normal;
-    color: green;
-  }
+@font-face {
+  font-family: Spline Sans, sans-serif;
+  src: url("assets/fonts/SplineSans-VariableFont.ttf");
+}
