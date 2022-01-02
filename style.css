@@ -2,3 +2,7 @@
   font-family: Spline Sans, sans-serif;
   src: url("assets/fonts/SplineSans-VariableFont.ttf");
 }
+body {
+  font-family: Spline Sans, sans-serif;
+  font-weight: normal;
+}
