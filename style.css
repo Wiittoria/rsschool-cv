@@ -12,7 +12,7 @@ body {
   font-size: 17px;
   font-weight: normal;
   line-height: 1.3;
-  color: #000000;
+  color: #473D52;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -32,6 +32,8 @@ footer {
 p {
   font-size: 16px;
   font-weight: normal;
+  margin: 5px 0;
+  padding: 0px;
 }
 
 h1 {
@@ -41,16 +43,26 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  color: #000000;
+  text-transform: uppercase;
+  color: #473D52;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: italic;
+  color: #473D52;
+  margin: 13px 0 5px 0;
+  padding: 0px;
 }
 
 nav {
