@@ -1,5 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Slab:wght@400;700&display=swap');
+/* font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto Slab', serif; */
+
+/* Обнуляющий стиль */
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* Обнуляющий стиль */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 1200px;
+  background: #f1e7c436;
+}
+
+header {
+  background-color: #C196EE;
+  border: 2px solid #2e405371;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #2e405371;
+}
+
+footer {
+  border: 2px solid #2e405371;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #C196EE;
+  height: 125px;
+  padding: 0 40px;
+}
+
+.nav {
+  border-bottom: 3px dotted #2E4053;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto Slab', serif; 
+  font-size: 20px;
+}
+
+.header__bottom {
+  display: flex;
+  border: 2px solid #2e405371;
+}
+
+.bottom__leftside {
+  flex-basis: 65%;
+  background: #c78fec;
+  padding-top: 120px;
+}
+
+.bottom__rightside {
+  flex-basis: 35%;
+  background: #c78fec;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  background: #c78fec;
+  border: 2px solid #2e405371;
+}
+
+.aboutmyself {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  background: #c78fec;
+  padding: 40px 0;
+  border: 2px solid #2e405371;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  background:#c78fec;
+  font-family: 'Roboto Slab', serif; 
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.strlist {
+  font-family: 'Roboto Slab', serif; 
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+img {
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.ed-list {
+  font-family: 'Roboto Slab', serif; 
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.education-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background: #c78fec;
+  padding: 40px 0;
+  border: 2px solid #2e405371;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.education-title {
+
+}
+
+.education-details {
+
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  background: #c78fec;
+  font-family: 'Roboto Slab', serif; 
+  font-size: 18px;
+  color: #FFFFFF;
+  height: 350px;
+  padding: 0 40px;
+  border: 2px solid #2e405371;
+}
+
+.langspan {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.contactspan {
+  font-weight: bold;
+}
+
+.contactslist {
+  font-family: 'Roboto Slab', serif; 
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.engsk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 h1 {
-    font-size: 20px;
-    font-weight: normal;
-    color: green;
-  }
+  font-family: 'Oswald', sans-serif;
+  font-size: 65px;
+  color: #FFFFFF;
+  font-stretch: ultra-expanded;
+}
+
+.bottom__fio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.strengths {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif; 
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px dotted #b403fae0;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+.rs-school {
+ display: flex; 
+ font-family: 'Roboto Slab', serif; 
+ color: white;
+ font-size: 25px;
+ font-weight: 700;
+}
+
+.year {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.gitacc {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif; 
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.githubmyacc {
+}
